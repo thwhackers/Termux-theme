@@ -17,19 +17,19 @@ Requirements
 - Bash
 - Git
 
-Installation
+# Installation
 
-pkg update -y && pkg install git -y
+```pkg update -y && pkg install git -y```
 
-git clone https://github.com/thwhackers/Termux-theme.git
+```git clone https://github.com/thwhackers/Termux-theme.git```
 
-cd Termux-theme
+```cd Termux-theme```
 
-chmod +x theme.sh
+```chmod +x theme.sh```
 
-bash theme.sh
+```bash theme.sh```
 
-Usage
+# Usage
 
 cd ~/Termux-theme
 bash theme.sh
@@ -41,23 +41,3 @@ Keyboard Shortcuts
 - "Ctrl + L" — Open Telegram
 - "Ctrl + P" — Open YouTube
 - "Ctrl + X" — Attempt to close Bash sessions
-
-Configuration
-
-- Config directory: "~/.thw/"
-- Banner script: "~/.thw/banner.sh"
-- Name file: "~/.thw/name"
-
-Security
-
-Review scripts before running them. Keyboard shortcuts may close terminal sessions.
-
-Credits
-
-- Project: THW Termux Theme
-- Developer: THW HACKER
-- GitHub: https://github.com/thwhackers/Termux-theme
-
-License
-
-Check the repository for license information before redistribution.
